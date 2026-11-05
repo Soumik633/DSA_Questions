@@ -1,8 +1,12 @@
-# Ignore all Java compiled class files
 @"
+# Ignore compiled Java files
 *.class
+
+# Ignore IDE files
 .vscode/
 .idea/
+
+# Ignore build directories
 bin/
 out/
 target/
