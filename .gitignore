@@ -1,0 +1,9 @@
+# Ignore all Java compiled class files
+@"
+*.class
+.vscode/
+.idea/
+bin/
+out/
+target/
+"@ | Set-Content .gitignore
