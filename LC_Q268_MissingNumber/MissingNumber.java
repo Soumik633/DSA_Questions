@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class MissingNumber {
     public int missingNumber(int[] nums) {
         int xorSum = 0;
-        // XOR with all array elements
+        // XOR with all  array elements
         for(int num : nums){
             xorSum = xorSum ^ num;
         }
