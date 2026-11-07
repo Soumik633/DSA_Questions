@@ -16,7 +16,7 @@ class Q1_TwoSum {
     }
 
     // Main method for VS Code
-    //Taking input in IDE
+    //Taking input in  IDE
     public static void main(String[] args) {
 
         int[] nums = {2, 7, 11, 15};
