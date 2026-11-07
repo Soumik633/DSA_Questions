@@ -1,4 +1,4 @@
-package Q268_MissingNumber;
+package LC_Q268_MissingNumber;
 
 import java.util.Scanner;
 
