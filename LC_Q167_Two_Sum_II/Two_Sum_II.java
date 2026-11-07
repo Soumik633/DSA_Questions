@@ -7,7 +7,7 @@ public class Two_Sum_II {
     public int[] twoSum(int[] numbers, int target) {
 
         int left = 0;
-        int right = numbers.length - 1;
+        int right = numbers.length - 1 ;
 
         while(left < right) {
 
