@@ -3,7 +3,7 @@ package LC_Q26_RemoveDuplicates;
 
 import java.util.Scanner;
 
-public class Remove_Duplicates_from_Sorted_Array {
+public class RemoveDuplicatesFromSortedArray {
 
     public int removeDuplicates(int[] nums) {
         int i = 0;
@@ -37,8 +37,8 @@ public class Remove_Duplicates_from_Sorted_Array {
             nums[k] = sc.nextInt();
         }
 
-        Remove_Duplicates_from_Sorted_Array obj =
-                new Remove_Duplicates_from_Sorted_Array();
+        RemoveDuplicatesFromSortedArray obj =
+                new RemoveDuplicatesFromSortedArray();
 
         int k = obj.removeDuplicates(nums);
 
