@@ -9,7 +9,7 @@ public class MissingNumber {
         for(int num : nums){
             xorSum = xorSum ^ num;
         }
-        // XOR with all element in thhe range
+        // XOR with all element  in thhe range
         int n = nums.length;
         for(int i = 0; i <= n;i++){
             xorSum = xorSum ^ i;
