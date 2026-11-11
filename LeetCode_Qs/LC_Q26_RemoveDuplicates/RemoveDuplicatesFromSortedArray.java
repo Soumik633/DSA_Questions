@@ -12,7 +12,7 @@ public class RemoveDuplicatesFromSortedArray {
 
         while (j < n) {
             if (nums[i] == nums[j]) {
-                // If Match, Check next
+                // If Match, Then Check next
                 j++;
             } else {
                 // If No Match, Move i forward
