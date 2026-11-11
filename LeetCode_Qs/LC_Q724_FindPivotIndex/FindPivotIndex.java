@@ -18,7 +18,7 @@ class Solution {
             leftSum[i] = leftSum[i - 1] + nums[i];
         }
 
-        // Store the rightSum
+        // Store the rightSum 
         rightSum[n - 1] = nums[n - 1];
 
         for (int i = n - 2; i >= 0; i--) {
