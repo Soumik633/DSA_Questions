@@ -15,7 +15,7 @@ class Q1_TwoSum {
         return new int[] {};
     }
 
-    // Main method for VS Code
+    // Main method for  VS Code
     //Taking input in  IDE
     public static void main(String[] args) {
 
