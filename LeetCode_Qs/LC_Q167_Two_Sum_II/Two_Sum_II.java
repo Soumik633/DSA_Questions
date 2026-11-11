@@ -51,7 +51,7 @@ public class Two_Sum_II {
         int[] result = obj.twoSum(numbers, target);
 
         if(result.length == 2) {
-            System.out.println("Indices: " + Arrays.toString(result));
+            System.out.println("Indices are: " + Arrays.toString(result));
         }
         else {
             System.out.println("No solution found.");
