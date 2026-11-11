@@ -11,7 +11,7 @@ public class Q15_3Sum {
 
         for (int i = 0; i < n - 2; i++) {
 
-            // Skip duplicate first   elements
+            // Skip duplicate first elements
             if (i > 0 && nums[i] == nums[i - 1]) {
                 continue;
             }
