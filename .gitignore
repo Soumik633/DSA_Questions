@@ -1,1 +1,13 @@
+@"
+# Ignore compiled Java  files
 *.class
+
+# Ignore IDE files
+.vscode/
+.idea/
+
+# Ignore build directories
+bin/
+out/
+target/
+"@ | Set-Content .gitignore
