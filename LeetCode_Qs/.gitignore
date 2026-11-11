@@ -9,5 +9,5 @@
 # Ignore build directories
 bin/
 out/
-target/
-"@ | Set-Content .gitignore
+target/ 
+"@ | Set-Content .gitignore 
