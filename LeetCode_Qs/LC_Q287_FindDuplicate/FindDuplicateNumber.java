@@ -13,7 +13,7 @@ public class FindDuplicateNumber {
             freq.put(num, freq.getOrDefault(num, 0) + 1);
         }
 
-        // Find duplicate number
+        // Find duplicate number  
         for (int i : nums) {
             if (freq.get(i) > 1) {
                 return i;
